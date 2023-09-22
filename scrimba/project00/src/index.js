@@ -1,27 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-
-/**
-Challenge: 
-
-- Add an `ul` inside the Header's `nav` and create
-  the following `li`s: "Pricing", "About", & "Contact"
-*/
-
-function Header() {
-    return (
-        <header>
-            <nav className = 'nav' >
-                <img src="./react-logo.png" width="40px" alt='flkrnf' />
-                 <ul className = 'un'>
-                 <li>Pricing</li>
-                  <li>About</li>
-                   <li>Contact</li>
-                 </ul>
-            </nav>
-        </header>
-    )
-}
+import React from "react"
+import  rea from "react-dom/client"
+import Header from "./Header"
 
 function Footer() {
     return (
@@ -55,5 +34,5 @@ function Page() {
     )
 }
 
-const outCome = ReactDOM.createRoot(document.getElementById('root'))
-outCome.render(<Page />)
+ const outPut = rea.createRoot(document.getElementById('root')) 
+  outPut.render(<Page />)
